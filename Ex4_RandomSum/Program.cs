@@ -1,0 +1,10 @@
+﻿int num1 = new Random().Next(1, 100);
+Console.Write("1st number: ");
+Console.Write(num1);
+Console.WriteLine();
+int num2 = new Random().Next(1, 100);
+Console.Write("2nd number: ");
+Console.Write(num2);
+Console.WriteLine();
+Console.Write("Sum: ");
+Console.Write(num1 + num2);
